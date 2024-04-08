@@ -1,0 +1,35 @@
+.cards-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 16px 48px;
+    gap: 16px;
+}
+.card-box{
+    margin: 16px;
+}
+
+.card-img {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.card-info-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.card-rating {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.card-title,
+ .card-rating p{
+    margin-bottom: 3.2;
+}
