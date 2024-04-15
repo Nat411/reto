@@ -1,4 +1,4 @@
-import react, { useState } from "react"
+import { useState } from "react"
 import "./style.css"
 import { links } from "../../assets/image-links"
 

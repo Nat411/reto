@@ -1,4 +1,4 @@
-import react from "react"
+ 
 import "./style.css"
 import SearchRoundedIcon from '@mui/icons-material/SearchRounded'
 import TuneRoundedIcon from '@mui/icons-material/TuneRounded';

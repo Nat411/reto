@@ -1,4 +1,4 @@
-import react from "react"
+ 
 import logo from "../../assets/long-logo.png"
 import "./styles.css"
 import SearchRoundedIcon from '@mui/icons-material/SearchRounded'
