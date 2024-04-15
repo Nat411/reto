@@ -2,9 +2,9 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import BottomNavigation from '@mui/material/BottomNavigation';
 import BottomNavigationAction from '@mui/material/BottomNavigationAction';
-import RestoreIcon from '@mui/icons-material/Restore';
+import SearchRoundedIcon from '@mui/icons-material/SearchRounded'
 import FavoriteIcon from '@mui/icons-material/Favorite';
-import LocationOnIcon from '@mui/icons-material/LocationOn';
+import AccountCircleRoundedIcon from '@mui/icons-material/AccountCircleRounded';
 
 export default function SimpleBottomNavigation() {
   const [value, setValue] = React.useState(0);
@@ -18,9 +18,9 @@ export default function SimpleBottomNavigation() {
           setValue(newValue);
         }}
       >
-        <BottomNavigationAction label="Recents" icon={<RestoreIcon />} />
-        <BottomNavigationAction label="Favorites" icon={<FavoriteIcon />} />
-        <BottomNavigationAction label="Nearby" icon={<LocationOnIcon />} />
+        <BottomNavigationAction label="Explora" icon={<SearchRoundedIcon />} />
+        <BottomNavigationAction label="Favoritos" icon={<FavoriteIcon />} />
+        <BottomNavigationAction label="Iniciar sesión" icon={<AccountCircleRoundedIcon />} />
       </BottomNavigation>
     </div>
   );
