@@ -1,8 +1,8 @@
 import './App.css'
-import { Routes, Route, HashRouter, BrowserRouter } from 'react-router-dom'
+import { Routes, Route, HashRouter } from 'react-router-dom'
 import Home from './components/home'
 import Details from './components/details'
-import Header from './components/header'
+// import Header from './components/header'
 
 function App() {
   return (
