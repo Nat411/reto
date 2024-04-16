@@ -1,5 +1,4 @@
- 
-import "./style.css"
+ import "./style.css"
 import hotel from "../../assets/hotels/hotel1.webp"
 import StarRateRoundedIcon from '@mui/icons-material/StarRateRounded'
 
