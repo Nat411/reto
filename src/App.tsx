@@ -1,19 +1,15 @@
 import './App.css'
-import { Routes, Route,BrowserRouter } from 'react-router-dom'
-import Home from './components/home'
-import Details from './components/details/details'
+import Header from './components/header'
+import Filter from './components/fiter'
+import Cards from './components/cards'
 
 function App() {
   return (
-    <BrowserRouter>
-        <div>
-          <Routes>
-            <Route path="/" element = {<Home />} />
-            <Route path="/details" element = {<Details />} />
-          </Routes>
-        </div>
-      </BrowserRouter>
-
+      <div className='App'>
+        <Header/>
+        <Filter />
+        <Cards />
+      </div>
 
   )
 }
