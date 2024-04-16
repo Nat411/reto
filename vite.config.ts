@@ -8,9 +8,9 @@ export default defineConfig(({ command}) => {
     base: '/',
   }
 
-  if (command !== 'serve'){
-    config.base = '/reto/'
-  }
+  // if (command !== 'serve'){
+  //   config.base = '/reto/'
+  // }
 
   return config
 })
