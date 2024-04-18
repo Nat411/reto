@@ -8,7 +8,7 @@ function Card(){
         <div className="card-box">
             <img src = {hotel} className="card-img"/>
             <div className="card-info-flex">
-                <h3 className = "card-title">Place</h3>
+                <h3 className = "card-title">City Treasure on 13th</h3>
                 <div className="card-rating">
                     <StarRateRoundedIcon />
                     <p>4.8</p>
