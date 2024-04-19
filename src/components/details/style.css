@@ -1,8 +1,12 @@
+.details{
+    margin: auto 40px;
+}
+
 .details-title-box{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 80px 48px 24px;
+    padding: 80px 0px 24px;
 }
 
 .details-title{
@@ -17,7 +21,7 @@
 }
 
 .details-title-options-text{
-    color: var(--subtitle-font);
+    color: var(--title-font);
     font-weight: 600;
     font-size: 14px;
 }
@@ -83,7 +87,7 @@
   }
 
 .info{
-    padding: 32px 48px;
+    padding: 32px 0px;
 }
 
 .info-title{
@@ -96,14 +100,13 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
-    color: var(--subtitle-font); 
+    color: var(--title-font); 
 }
 
 .calification{
-    margin-left: 48px;
-    padding: 0px 48px;
+    padding: 8px;
     display: flex;
-    justify-content: flex-center;
+    justify-content: space-evenly;
     align-items: center;
     gap: 8px;
     border: 1px solid var(--grey);
@@ -112,15 +115,176 @@
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     width: 40vw;
+    height: 10vh;
     box-shadow: 0 1px 2px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 5%);
     cursor: pointer;
 }
 
 .calification-section{
-    padding: 12px 12px 0px 0px;
+    display: flex;
+    align-items: center;
+    padding: 12px;
     border-right: 1px solid var(--grey);
+    flex-direction: column;
 }
 
 .calification-section1{
     padding: 12px 12px 0px 0px;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    flex-direction: column;
+}
+
+.calification-section-text{
+    padding: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: center;
+}
+
+.calification-section-rate{
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-box{
+    display: flex;
+    justify-content: flex-start;
+    padding: 24px 0px;
+    border-bottom: 1px solid var(--grey);
+    width: 50vw;
+
+}
+
+.profile-pic img{
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+}
+
+.profile-info {
+    margin-left: 16px;
+}
+
+.profile-title{
+    padding: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+}
+.profile-subtitle {
+    padding: 4px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px; 
+    color: var(--subtitle-font);
+}
+
+.perks-box {
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 1px solid var(--grey);
+    width: 50vw;
+    flex-direction: column;
+    padding: 24px 0px;
+}
+
+.perks-info{
+    padding: 0px 0px 14px;
+    display: flex;
+    align-items: center;
+}
+.perks-info2{
+    display: flex;
+    align-items: center;
+}
+.perks-text{
+    padding-left: 24px;
+}
+
+.welcome{
+    display: flex;
+    justify-content: flex-start;
+    width: 50vw;
+    flex-direction: column;
+    padding: 24px 0px;
+}
+
+.welcome-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.welcome-more{
+    flex-direction: row;
+    color: var(--title-font);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid var(--grey);
+    width: 50vw;
+    padding: 26px 0px;
+}
+
+.sleep {
+    display: flex;
+    padding: 24px 0px 48px;
+    flex-direction: column;
+    border-bottom: 1px solid var(--grey);
+    width: 50vw;
+}
+
+.sleep-title{
+    padding: 4px;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26px;
+    padding-bottom: 24px;
+}
+
+.sleep-info{
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+}
+
+.sleep-habitacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 24px;
+    margin: 0px 16px;
+    border: 1px solid var(--grey);
+    width: 20vw;
+    border-radius: 12px;
+    overflow-wrap: break-word;
+}
+
+.offer {
+    display: flex;
+    padding: 48px 0px 48px;
+    flex-direction: column;
+    border-bottom: 1px solid var(--grey);
+    width: 50vw;
+}
+
+.offer-text{
+    height: 6vh;
+    display: flex;
+    padding-bottom: 8px; 
+    align-items: center;
+}
+
+.offer-info{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-left: 16px;
+    color: var(--title-font);
 }

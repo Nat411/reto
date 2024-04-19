@@ -7,7 +7,9 @@
   --white: #ffffff;
   --theme: #ff385c;
   --light-grey: #f7f7f7;
-  --subtitle-font: #222222;
+  --title-font: #222222;
+  --subtitle-font: #6a6a6a;
+  
 }
 
 body {
