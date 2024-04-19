@@ -16,19 +16,20 @@ import FlatwareRoundedIcon from '@mui/icons-material/FlatwareRounded';
 import WifiRoundedIcon from '@mui/icons-material/WifiRounded';
 import DeskRoundedIcon from '@mui/icons-material/DeskRounded';
 import DirectionsCarFilledRoundedIcon from '@mui/icons-material/DirectionsCarFilledRounded';
+import MyCalendar from "../calendar"
+
 
 function Details(){
     return (
         <div className="details">
             <Header/>
             <div className="details-title-box">
-                <div className = "details-title">City Treasure on 13th</div>  
+                <div className = "details-title">Tesoro de la ciudad el 13</div>  
                 <div className = "details-title-options">
                     <div className="details-title-options-text">
                         <IosShareRoundedIcon sx = {{
                             fontSize : '18px',
                             marginRight: '8px',
-                            // color: 'var(-- title-font)'
                         }}/>
                       <u>Compartir</u>
                     </div>
@@ -236,7 +237,18 @@ function Details(){
                     }}/>
                     <p className = "offer-info"> Estacionamiento gratis en las instalaciones: 1 puesto </p>
                 </div>
+                <div className="offer-button">
+                    <div className="offer-button-text">Mostrar los x servicios</div>
+                </div>
             </div>
+
+            <div className="schedule">
+                <div className="schedule-title">
+                    5 noches en Calgary
+                </div>
+                <MyCalendar />
+            </div>
+            kjbvytc
             
         </div>
     )

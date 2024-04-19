@@ -288,3 +288,39 @@
     padding-left: 16px;
     color: var(--title-font);
 }
+
+.offer-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+    border: 1px solid var(--title-font);
+    border-radius: 8px;
+    width: 20vw;
+    height: 7vh;
+}
+
+.offer-button-text{
+    padding: 13px 23px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    color: var(--title-font);
+}
+
+.schedule{ 
+    padding: 48px 0px;
+    padding: 4px;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26px;
+    padding-top: 48px;
+    width: 100vw;
+    border-bottom: 1px solid var(--grey);
+}
+
+.schedule-title{
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 26px;   
+}
