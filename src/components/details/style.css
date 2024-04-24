@@ -310,11 +310,9 @@
 
 .schedule{ 
     padding: 48px 0px;
-    padding: 4px;
     font-size: 22px;
     font-weight: 600;
     line-height: 26px;
-    padding-top: 48px;
     width: 100vw;
     border-bottom: 1px solid var(--grey);
 }
@@ -323,4 +321,94 @@
     font-size: 26px;
     font-weight: 600;
     line-height: 26px;   
+}
+
+.overall {
+    display: flex;
+    padding: 48px 0px;
+    flex-direction: column;
+    border-bottom: 1px solid var(--grey);
+    justify-content: center;
+    align-items: center;
+}
+
+.rating {
+    font-size: 100px;
+    font-weight: 600;
+    /* text-align: center; */
+    line-height: 100px;
+   
+}
+
+.rating-title{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26px;
+    /* text-align: center; */
+
+}
+
+.rating-subtitle{
+    font-size: 16px;
+    font-size: 400;
+    line-height: 20px;
+    text-align: center;
+    color: var(--font-grey);
+    text-size-adjust: 100%;
+    width: 289px;;
+}
+
+.comments{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 48px 0px;
+    border-bottom: 1px solid var(--grey);
+}
+
+.map-flex{
+    display: flex;
+    justify-content: center;
+}
+
+.location{
+    padding: 48px 0px;
+}
+.location-subtitle{
+    padding: 4px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-bottom: 24px;
+}
+
+.location-details{
+    padding: 24px 0px;  
+}
+
+.location-title{
+    padding: 4px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    padding-bottom: 24px;
+}
+.location-more{
+    flex-direction: row;
+    color: var(--title-font);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.host-box{
+    padding: 24px;
+}
+
+.host-box-info{
+    background-color: var(--grey);
+    padding: 40px 48px 24px;
+    border-radius: 16px;
 }

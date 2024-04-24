@@ -17,6 +17,8 @@ import WifiRoundedIcon from '@mui/icons-material/WifiRounded';
 import DeskRoundedIcon from '@mui/icons-material/DeskRounded';
 import DirectionsCarFilledRoundedIcon from '@mui/icons-material/DirectionsCarFilledRounded';
 import MyCalendar from "../calendar"
+import Comments from "../comment/comments"
+import Map from "../map"
 
 
 function Details(){
@@ -101,7 +103,7 @@ function Details(){
                         Anfitrión: Lisbeth
                     </div>
                     <div className="profile-subtitle">
-                        Superanfitrión· 1 año anfitrionando
+                        Superanfitrión · 1 año anfitrionando
                     </div>
                 </div>
                 
@@ -248,8 +250,64 @@ function Details(){
                 </div>
                 <MyCalendar />
             </div>
-            kjbvytc
             
+            <div className ="overall">
+                <div className = "rating">4.87</div>
+                <div className="rating-title">Favorito entre huéspedes</div>
+                <div className="rating-subtitle">Uno de los alojamientos más populares en Airbnb según las valoraciones, las reseñas y la confiabilidad</div>
+            </div>
+            
+            <div className="comments">
+                <Comments />
+                <Comments />
+                <Comments />
+                <Comments />
+                <Comments />
+                <Comments />
+                <div className="offer-button">
+                    <div className="offer-button-text">Mostrar las 62 reseñas</div>
+                </div>
+            </div>
+
+            <div className="location">
+                <div className="sleep-title">
+                    A dónde irás
+                </div>
+                <div className="location-subtitle">
+                    Calgary, Alberta, Canadá    
+                </div>
+                <div className="map-flex">
+                    <Map />   
+                </div>
+                
+                <div className="location-details">
+                    <div className="location-title">Aspectos destacados del vecindario</div>
+                    <div className="location-subtitle">Calgary Beltline Neighborhood</div>
+                    <div className="location-subtitle">"El área moderna de Beltline está limitada por 17th Avenue SW, con boutiques geniales que venden moda, muebles retro, vinilos y regalos..."</div>
+                    <div className="location-more">
+                    <u>Mostrar más</u>
+                    <ArrowForwardIosRoundedIcon sx ={{
+                        fontSize: "16px",
+                        color: "var(--title-font)"
+                    }}/>
+                    </div>
+                </div>
+            </div>
+
+            <div className="host">
+                <div className="info-title">Conoce tu anfitrión</div>
+                <div className="host-box">
+                    <div className="host-box-info">
+                        <div className="host-profile">
+                            <div className="host-profile-pic">
+                                <img src="https://a0.muscache.com/im/pictures/user/77faa31f-3f1b-41ef-854f-16417496ffd6.jpg?im_w=240" />
+                                <div className = "host-title">Lisbeth</div>
+                                <div className = "host-title">Superanfitrión</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 
